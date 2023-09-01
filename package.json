@@ -10,6 +10,10 @@
     "package": "plasmo package"
   },
   "dependencies": {
+    "@formkit/auto-animate": "^0.7.0",
+    "@plasmohq/messaging": "^0.5.0",
+    "@plasmohq/storage": "^1.7.2",
+    "p-queue": "^7.4.0",
     "plasmo": "0.82.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -26,6 +30,9 @@
     "typescript": "5.1.6"
   },
   "manifest": {
+    "permissions": [
+      "bookmarks"
+    ],
     "host_permissions": [
       "https://*/*"
     ]
