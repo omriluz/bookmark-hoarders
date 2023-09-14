@@ -32,9 +32,6 @@
   "manifest": {
     "permissions": [
       "bookmarks"
-    ],
-    "host_permissions": [
-      "https://*/*"
     ]
   }
 }

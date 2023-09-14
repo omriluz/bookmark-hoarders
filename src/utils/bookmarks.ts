@@ -2,7 +2,7 @@ import { Storage } from "@plasmohq/storage"
 
 const METADATA_API_ENDPOINT = "https://jsonlink.io/api/extract?url="
 const STORAGE_KEY = "bookmarks"
-const STACK_SIZE = 300
+const STACK_SIZE = 30
 
 async function getMetadataFromUrl(url: string) {
   if (!url) return
@@ -24,6 +24,8 @@ export async function getBookmarkUrls() {
 }
 
 export async function setBookmarks() {
+  console.log('got to setbookmarks');
+  
   const storage = new Storage({ area: "local" })
   const storageValue = await storage.get(STORAGE_KEY)
   let bookmarkAmount = 0
