@@ -1,7 +1,7 @@
 {
   "name": "bookmark-hoarders",
   "displayName": "Bookmark hoarders",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "Get Rid Of Your Bookmarks The Smart Way",
   "author": "Plasmo Corp. <foss@plasmo.com>",
   "scripts": {
